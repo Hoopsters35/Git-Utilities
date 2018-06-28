@@ -1,9 +1,11 @@
 #! /usr/bin/env bash
 
-python ./FindAllGitRepos.py ${HOME} ./gitprojects.txt
+MYDIR="$(dirname "$(readlink -f "$0")")"
+
+python $MYDIR/FindAllGitRepos.py ${HOME} $MYDIR/gitprojects.txt
 
 IFS=''
-cat ./gitprojects.txt | while read LINE
+cat $MYDIR/gitprojects.txt | while read LINE
 do
     echo 'Pulling repository at: ' $LINE
     cd $LINE
