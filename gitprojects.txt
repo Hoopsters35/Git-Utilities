@@ -1,0 +1,8 @@
+/home/justin/.cache/yay/rstudio-desktop-bin
+/home/justin/aurman
+/home/justin/yay
+/home/justin/school/CSE-2231
+/home/justin/school/Stats
+/home/justin/school/workspace/MapWithHashing
+/home/justin/school/ENGR2367
+/home/justin/coding/Scripts/UpdateGitRepos
