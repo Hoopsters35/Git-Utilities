@@ -1,0 +1,9 @@
+#! /usr/bin/bash
+
+if [ "$#" -eq 0 ]  && [ "${@#" --help"}" = "" ]
+then
+    printf -- "No arguments passed\n"
+fi
+
+printf -- "All done.\n"
+exit 0
